@@ -6,7 +6,7 @@ const app = express()
 
 app.use(cors())
 
-mongoose.connect('mongodb://shoqolatt-machine:shoqolatt2019@ds111025.mlab.com:11025/shoqolatt-machine', {
+mongoose.connect('mongodb://db-address', {
     useNewUrlParser: true
 })
 
